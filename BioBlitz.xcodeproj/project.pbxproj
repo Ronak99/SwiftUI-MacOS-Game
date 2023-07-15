@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12AD23C2A62DD6A009F9D71 /* BioBlitzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AD23B2A62DD6A009F9D71 /* BioBlitzApp.swift */; };
+		D12AD23E2A62DD6A009F9D71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AD23D2A62DD6A009F9D71 /* ContentView.swift */; };
+		D12AD2402A62DD6A009F9D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12AD23F2A62DD6A009F9D71 /* Assets.xcassets */; };
+		D12AD2432A62DD6A009F9D71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12AD2422A62DD6A009F9D71 /* Preview Assets.xcassets */; };
+		D12AD24E2A62DD6A009F9D71 /* BioBlitzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AD24D2A62DD6A009F9D71 /* BioBlitzTests.swift */; };
+		D12AD2582A62DD6A009F9D71 /* BioBlitzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AD2572A62DD6A009F9D71 /* BioBlitzUITests.swift */; };
+		D12AD25A2A62DD6A009F9D71 /* BioBlitzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AD2592A62DD6A009F9D71 /* BioBlitzUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12AD24A2A62DD6A009F9D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12AD2302A62DD6A009F9D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12AD2372A62DD6A009F9D71;
+			remoteInfo = BioBlitz;
+		};
+		D12AD2542A62DD6A009F9D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12AD2302A62DD6A009F9D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12AD2372A62DD6A009F9D71;
+			remoteInfo = BioBlitz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D12AD2382A62DD6A009F9D71 /* BioBlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBlitz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12AD23B2A62DD6A009F9D71 /* BioBlitzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitzApp.swift; sourceTree = "<group>"; };
+		D12AD23D2A62DD6A009F9D71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D12AD23F2A62DD6A009F9D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12AD2422A62DD6A009F9D71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D12AD2442A62DD6A009F9D71 /* BioBlitz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioBlitz.entitlements; sourceTree = "<group>"; };
+		D12AD2492A62DD6A009F9D71 /* BioBlitzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBlitzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12AD24D2A62DD6A009F9D71 /* BioBlitzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitzTests.swift; sourceTree = "<group>"; };
+		D12AD2532A62DD6A009F9D71 /* BioBlitzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBlitzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12AD2572A62DD6A009F9D71 /* BioBlitzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitzUITests.swift; sourceTree = "<group>"; };
+		D12AD2592A62DD6A009F9D71 /* BioBlitzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBlitzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12AD2352A62DD6A009F9D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12AD2462A62DD6A009F9D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12AD2502A62DD6A009F9D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12AD22F2A62DD6A009F9D71 = {
+			isa = PBXGroup;
+			children = (
+				D12AD23A2A62DD6A009F9D71 /* BioBlitz */,
+				D12AD24C2A62DD6A009F9D71 /* BioBlitzTests */,
+				D12AD2562A62DD6A009F9D71 /* BioBlitzUITests */,
+				D12AD2392A62DD6A009F9D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12AD2392A62DD6A009F9D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12AD2382A62DD6A009F9D71 /* BioBlitz.app */,
+				D12AD2492A62DD6A009F9D71 /* BioBlitzTests.xctest */,
+				D12AD2532A62DD6A009F9D71 /* BioBlitzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12AD23A2A62DD6A009F9D71 /* BioBlitz */ = {
+			isa = PBXGroup;
+			children = (
+				D12AD23B2A62DD6A009F9D71 /* BioBlitzApp.swift */,
+				D12AD23D2A62DD6A009F9D71 /* ContentView.swift */,
+				D12AD23F2A62DD6A009F9D71 /* Assets.xcassets */,
+				D12AD2442A62DD6A009F9D71 /* BioBlitz.entitlements */,
+				D12AD2412A62DD6A009F9D71 /* Preview Content */,
+			);
+			path = BioBlitz;
+			sourceTree = "<group>";
+		};
+		D12AD2412A62DD6A009F9D71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D12AD2422A62DD6A009F9D71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D12AD24C2A62DD6A009F9D71 /* BioBlitzTests */ = {
+			isa = PBXGroup;
+			children = (
+				D12AD24D2A62DD6A009F9D71 /* BioBlitzTests.swift */,
+			);
+			path = BioBlitzTests;
+			sourceTree = "<group>";
+		};
+		D12AD2562A62DD6A009F9D71 /* BioBlitzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D12AD2572A62DD6A009F9D71 /* BioBlitzUITests.swift */,
+				D12AD2592A62DD6A009F9D71 /* BioBlitzUITestsLaunchTests.swift */,
+			);
+			path = BioBlitzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12AD2372A62DD6A009F9D71 /* BioBlitz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12AD25D2A62DD6A009F9D71 /* Build configuration list for PBXNativeTarget "BioBlitz" */;
+			buildPhases = (
+				D12AD2342A62DD6A009F9D71 /* Sources */,
+				D12AD2352A62DD6A009F9D71 /* Frameworks */,
+				D12AD2362A62DD6A009F9D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioBlitz;
+			productName = BioBlitz;
+			productReference = D12AD2382A62DD6A009F9D71 /* BioBlitz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D12AD2482A62DD6A009F9D71 /* BioBlitzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12AD2602A62DD6A009F9D71 /* Build configuration list for PBXNativeTarget "BioBlitzTests" */;
+			buildPhases = (
+				D12AD2452A62DD6A009F9D71 /* Sources */,
+				D12AD2462A62DD6A009F9D71 /* Frameworks */,
+				D12AD2472A62DD6A009F9D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12AD24B2A62DD6A009F9D71 /* PBXTargetDependency */,
+			);
+			name = BioBlitzTests;
+			productName = BioBlitzTests;
+			productReference = D12AD2492A62DD6A009F9D71 /* BioBlitzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D12AD2522A62DD6A009F9D71 /* BioBlitzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12AD2632A62DD6A009F9D71 /* Build configuration list for PBXNativeTarget "BioBlitzUITests" */;
+			buildPhases = (
+				D12AD24F2A62DD6A009F9D71 /* Sources */,
+				D12AD2502A62DD6A009F9D71 /* Frameworks */,
+				D12AD2512A62DD6A009F9D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12AD2552A62DD6A009F9D71 /* PBXTargetDependency */,
+			);
+			name = BioBlitzUITests;
+			productName = BioBlitzUITests;
+			productReference = D12AD2532A62DD6A009F9D71 /* BioBlitzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12AD2302A62DD6A009F9D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D12AD2372A62DD6A009F9D71 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D12AD2482A62DD6A009F9D71 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D12AD2372A62DD6A009F9D71;
+					};
+					D12AD2522A62DD6A009F9D71 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D12AD2372A62DD6A009F9D71;
+					};
+				};
+			};
+			buildConfigurationList = D12AD2332A62DD6A009F9D71 /* Build configuration list for PBXProject "BioBlitz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12AD22F2A62DD6A009F9D71;
+			productRefGroup = D12AD2392A62DD6A009F9D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12AD2372A62DD6A009F9D71 /* BioBlitz */,
+				D12AD2482A62DD6A009F9D71 /* BioBlitzTests */,
+				D12AD2522A62DD6A009F9D71 /* BioBlitzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12AD2362A62DD6A009F9D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12AD2432A62DD6A009F9D71 /* Preview Assets.xcassets in Resources */,
+				D12AD2402A62DD6A009F9D71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12AD2472A62DD6A009F9D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12AD2512A62DD6A009F9D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12AD2342A62DD6A009F9D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12AD23E2A62DD6A009F9D71 /* ContentView.swift in Sources */,
+				D12AD23C2A62DD6A009F9D71 /* BioBlitzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12AD2452A62DD6A009F9D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12AD24E2A62DD6A009F9D71 /* BioBlitzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12AD24F2A62DD6A009F9D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12AD25A2A62DD6A009F9D71 /* BioBlitzUITestsLaunchTests.swift in Sources */,
+				D12AD2582A62DD6A009F9D71 /* BioBlitzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12AD24B2A62DD6A009F9D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12AD2372A62DD6A009F9D71 /* BioBlitz */;
+			targetProxy = D12AD24A2A62DD6A009F9D71 /* PBXContainerItemProxy */;
+		};
+		D12AD2552A62DD6A009F9D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12AD2372A62DD6A009F9D71 /* BioBlitz */;
+			targetProxy = D12AD2542A62DD6A009F9D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D12AD25B2A62DD6A009F9D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D12AD25C2A62DD6A009F9D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D12AD25E2A62DD6A009F9D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BioBlitz/BioBlitz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BioBlitz/Preview Content\"";
+				DEVELOPMENT_TEAM = YAHK4G4F5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.BioBlitz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D12AD25F2A62DD6A009F9D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BioBlitz/BioBlitz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BioBlitz/Preview Content\"";
+				DEVELOPMENT_TEAM = YAHK4G4F5A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.BioBlitz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D12AD2612A62DD6A009F9D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAHK4G4F5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.BioBlitzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioBlitz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioBlitz";
+			};
+			name = Debug;
+		};
+		D12AD2622A62DD6A009F9D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAHK4G4F5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.BioBlitzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioBlitz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioBlitz";
+			};
+			name = Release;
+		};
+		D12AD2642A62DD6A009F9D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAHK4G4F5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.BioBlitzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BioBlitz;
+			};
+			name = Debug;
+		};
+		D12AD2652A62DD6A009F9D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAHK4G4F5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.BioBlitzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BioBlitz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12AD2332A62DD6A009F9D71 /* Build configuration list for PBXProject "BioBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12AD25B2A62DD6A009F9D71 /* Debug */,
+				D12AD25C2A62DD6A009F9D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12AD25D2A62DD6A009F9D71 /* Build configuration list for PBXNativeTarget "BioBlitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12AD25E2A62DD6A009F9D71 /* Debug */,
+				D12AD25F2A62DD6A009F9D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12AD2602A62DD6A009F9D71 /* Build configuration list for PBXNativeTarget "BioBlitzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12AD2612A62DD6A009F9D71 /* Debug */,
+				D12AD2622A62DD6A009F9D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12AD2632A62DD6A009F9D71 /* Build configuration list for PBXNativeTarget "BioBlitzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12AD2642A62DD6A009F9D71 /* Debug */,
+				D12AD2652A62DD6A009F9D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12AD2302A62DD6A009F9D71 /* Project object */;
+}
